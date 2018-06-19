@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "keys.js",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "request": "^2.87.0",
+    "spotify-web-api-node": "^3.1.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,12 +23,5 @@
   "bugs": {
     "url": "https://github.com/lmarchet/liri-node-app/issues"
   },
-  "homepage": "https://github.com/lmarchet/liri-node-app#readme",
-  "dependencies": {
-    "dotenv": "^6.0.0",
-    "request": "^2.87.0",
-    "spotify-web-api-node": "^3.1.1",
-    "twitter": "^1.7.1"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/lmarchet/liri-node-app#readme"
 }
