@@ -21,6 +21,7 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
   
     // if statement to check if twitter returns object or error message.
     // Then, shows either up to 20 of my personal tweets or error messsage with error code passed by twitter
+    
     if (!error) {
         var myTweets = []; //empty array to hold my tweets
         for (var i = 0; i < tweets.length; i++) {
